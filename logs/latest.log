@@ -1595,3 +1595,25 @@ com.google.gson.JsonSyntaxException: Unknown recipe 'minecraft:leather_boots'
 [22:46:53] [Thread-18/INFO] [THAUMCRAFT]: Starting aura thread for dim -1
 [22:46:54] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3831ms behind, skipping 76 tick(s)
 [22:47:26] [Server thread/INFO] [antiqueatlas]: Saving local markers data to NBT
+[22:51:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
+[22:51:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[22:51:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[22:51:22] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: GraySloth lost connection: Server closed
+[22:51:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: GraySloth left the game
+[22:51:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[22:51:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[22:51:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/the_nether
+[22:51:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/ExtraUtils2_Quarry_Dim
+[22:51:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/Storage Cell
+[22:51:22] [Server thread/INFO] [THAUMCRAFT]: Removing aura cache for world 0
+[22:51:22] [Server thread/INFO] [THAUMCRAFT]: Removing aura cache for world -1
+[22:51:22] [Server thread/INFO] [THAUMCRAFT]: Removing aura cache for world -9999
+[22:51:22] [Server thread/INFO] [THAUMCRAFT]: Removing aura cache for world 2
+[22:51:22] [Server thread/INFO] [FML]: Unloading dimension 0
+[22:51:22] [Server thread/INFO] [FML]: Unloading dimension -1
+[22:51:22] [Server thread/INFO] [FML]: Unloading dimension -9999
+[22:51:22] [Server thread/INFO] [FML]: Unloading dimension 2
+[22:51:22] [Server thread/INFO] [mcjtylib_ng]: Cleaning up all world data: 1 data blobs
+[22:51:22] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[22:51:22] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[22:51:22] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
