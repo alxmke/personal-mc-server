@@ -1,0 +1,19 @@
+{
+	"name" : "end:main",
+	"exclusive" : true,
+	"criteria" : {
+		"biomeTypes" : [
+			"END"
+		]
+	},
+	"inherit" : [
+		"end:loot",
+		"end:tower",
+		"end:theme",
+		"end:rooms",
+		"builtin:secrets",
+		"builtin:segments",
+		"builtin:layout",
+		"builtin:loot"
+	]
+}

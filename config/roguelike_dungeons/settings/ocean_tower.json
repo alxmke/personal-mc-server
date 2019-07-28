@@ -1,0 +1,36 @@
+{
+	"name" : "ocean:tower",
+	"tower" : {
+		"type" : "BUNKER",
+		"theme" : {
+			"primary" : {
+				"walls" : {
+					"type" : "WEIGHTED",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "prismarine"}, "weight" : 5},
+						{"type" : "METABLOCK", "data" : {"name" : "sand"}, "weight" : 2},
+						{"type" : "METABLOCK", "data" : {"name" : "prismarine"}, "weight" : 2},
+						{"type" : "METABLOCK", "data" : {"name" : "prismarine", "meta" : 1}, "weight" : 1},
+						{"type" : "METABLOCK", "data" : {"name" : "prismarine", "meta" : 2}, "weight" : 7},
+						{"type" : "METABLOCK", "data" : {"name" : "air"}, "weight" : 1}
+					]
+				}
+			},
+			"secondary" : {
+				"walls" : {
+					"type" : "METABLOCK",
+					"data" : {"name" : "sandstone", "meta" : 2} 
+				},
+				"pillar" : {
+					"type" : "METABLOCK",
+					"data" : {"name" : "sandstone", "meta" : 1} 
+				},
+				"stair" : {
+					"type" : "METABLOCK",
+					"data" : {"name" : "sandstone_stairs"}
+				}
+			},
+		"base" : "ETHOTOWER"
+		}
+	}
+}

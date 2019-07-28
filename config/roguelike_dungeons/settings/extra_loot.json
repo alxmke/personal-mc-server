@@ -1,0 +1,15 @@
+{
+	"name" : "extra:loot",
+	"criteria" : {},
+	"loot_tables" : [
+		{"type" : "STARTER", "table" : "minecraft:chests/spawn_bonus_chest"},
+		{"level" : [0, 1, 2], "table" : "minecraft:chests/village_blacksmith"},
+		{"level" : [0, 1, 2], "table" : "minecraft:chests/igloo_chest"},
+		{"level" : [1, 2, 3], "table" : "minecraft:chests/simple_dungeon"},
+		{"level" : [1, 2, 3], "table" : "minecraft:chests/abandoned_mineshaft"},
+		{"level" : [3, 4], "table" : "minecraft:chests/jungle_temple"},
+		{"level" : [3, 4], "table" : "minecraft:chests/desert_pyramid"},
+		{"level" : [3, 4], "table" : "minecraft:chests/woodland_mansion"},
+		{"level" : 4, "table" : "minecraft:chests/nether_bridge"}
+		]
+}

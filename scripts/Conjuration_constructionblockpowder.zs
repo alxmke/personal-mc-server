@@ -1,0 +1,1 @@
+mods.botania.ManaInfusion.addConjuration(<buildinggadgets:constructionblockpowder> * 2, <buildinggadgets:constructionblockpowder>, 2048);

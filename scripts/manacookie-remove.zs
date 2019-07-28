@@ -1,0 +1,1 @@
+mods.botania.ManaInfusion.removeRecipe(<botania:manacookie>);

@@ -1,0 +1,187 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  ForgelinPlugin (Forgelin-1.8.3.jar)
+  ComfortsCoreLoadingPlugin (comforts-1.12.2-1.1.1.1.jar)
+  Quark Plugin (Quark-r1.5-168.jar)
+  IELoadingPlugin (ImmersiveEngineering-core-0.12-89.jar)
+  LibrarianLib Plugin (librarianlib-1.12.2-4.19.2-release.jar)
+  AppleCore (AppleCore-mc1.12.2-3.2.0.jar)
+  EnderCorePlugin (EnderCore-1.12.2-0.5.59-core.jar)
+  IvToolkit (IvToolkit-1.3.3-1.12.jar)
+  p455w0rdc0re (p455w0rdslib-1.12.2-2.2.156.jar)
+Contact their authors BEFORE contacting forge
+
+// I blame Dinnerbone.
+
+Time: 7/23/19 9:07 PM
+Description: Exception in server tick loop
+
+java.lang.NoClassDefFoundError: p455w0rd/danknull/items/ItemBlockDankNullDock
+	at p455w0rd.danknull.init.ModItems.<clinit>(ModItems.java:31)
+	at p455w0rd.danknull.init.ModEvents.onItemRegistryReady(ModEvents.java:72)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_258_ModEvents_onItemRegistryReady_Register.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:144)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:850)
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:628)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:99)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ClassNotFoundException: p455w0rd.danknull.items.ItemBlockDankNullDock
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 13 more
+Caused by: java.lang.NoClassDefFoundError: p455w0rdslib/api/client/shader/IBlockLightEmitter
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at java.security.SecureClassLoader.defineClass(Unknown Source)
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182)
+	... 15 more
+Caused by: java.lang.ClassNotFoundException: p455w0rdslib.api.client.shader.IBlockLightEmitter
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 19 more
+Caused by: java.lang.NullPointerException
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_221, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 329153680 bytes (313 MB) / 1065877504 bytes (1016 MB) up to 1065877504 bytes (1016 MB)
+	JVM Flags: 2 total; -Xmx1024M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2838 66 mods loaded, 66 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                                | Version           | Source                                               | Signature                                |
+	|:----- |:--------------------------------- |:----------------- |:---------------------------------------------------- |:---------------------------------------- |
+	| LCH   | minecraft                         | 1.12.2            | minecraft.jar                                        | None                                     |
+	| LCH   | mcp                               | 9.42              | minecraft.jar                                        | None                                     |
+	| LCH   | FML                               | 8.0.99.99         | forge-1.12.2-14.23.5.2838-universal.jar              | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCH   | forge                             | 14.23.5.2838      | forge-1.12.2-14.23.5.2838-universal.jar              | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCH   | ivtoolkit                         | 1.3.3-1.12        | minecraft.jar                                        | None                                     |
+	| LCH   | antiqueatlas                      | 4.5.1             | antiqueatlas-1.12.2-4.5.1.jar                        | e631d7254e451d0360d0148cb21407d5511d45e9 |
+	| LCH   | applecore                         | 3.2.0             | AppleCore-mc1.12.2-3.2.0.jar                         | None                                     |
+	| LCH   | crafttweaker                      | 4.1.19            | CraftTweaker2-1.12-4.1.19.jar                        | None                                     |
+	| LCH   | mtlib                             | 3.0.6             | MTLib-3.0.6.jar                                      | None                                     |
+	| LCH   | modtweaker                        | 4.0.17            | modtweaker-4.0.17.jar                                | None                                     |
+	| LCH   | jei                               | 4.15.0.268        | jei_1.12.2-4.15.0.268.jar                            | None                                     |
+	| LCH   | appleskin                         | 1.0.9             | AppleSkin-mc1.12-1.0.9.jar                           | None                                     |
+	| LCH   | appliedenergistics2               | rv6-stable-7      | appliedenergistics2-rv6-stable-7.jar                 | dfa4d3ac143316c6f32aa1a1beda1e34d42132e5 |
+	| LCH   | quark                             | r1.5-168          | Quark-r1.5-168.jar                                   | None                                     |
+	| LCH   | autoreglib                        | 1.3-32            | AutoRegLib-1.3-32.jar                                | None                                     |
+	| LCH   | baubles                           | 1.5.2             | Baubles-1.12-1.5.2.jar                               | None                                     |
+	| LCH   | bookshelf                         | 2.3.585           | Bookshelf-1.12.2-2.3.585.jar                         | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCH   | botania                           | r1.10-361         | Botania+r1.10-361.jar                                | None                                     |
+	| LCH   | buildinggadgets                   | 2.7.1             | BuildingGadgets-2.7.1.jar                            | None                                     |
+	| LCH   | chameleon                         | 1.12-4.1.3        | Chameleon-1.12-4.1.3.jar                             | None                                     |
+	| LCH   | codechickenlib                    | 3.2.2.353         | CodeChickenLib-1.12.2-3.2.2.353-universal.jar        | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LCH   | comforts                          | 1.1.1.1           | comforts-1.12.2-1.1.1.1.jar                          | 5d5b8aee896a4f5ea3f3114784742662a67ad32f |
+	| LCH   | mantle                            | 1.12-1.3.3.55     | Mantle-1.12-1.3.3.55.jar                             | None                                     |
+	| LCH   | endercore                         | 1.12.2-0.5.59     | EnderCore-1.12.2-0.5.59.jar                          | None                                     |
+	| LCH   | enderio                           | 5.0.46            | EnderIO-1.12.2-5.0.46.jar                            | None                                     |
+	| LCH   | enderiointegrationtic             | 5.0.46            | EnderIO-1.12.2-5.0.46.jar                            | None                                     |
+	| LCH   | tconstruct                        | 1.12.2-2.12.0.157 | TConstruct-1.12.2-2.12.0.157.jar                     | None                                     |
+	| LCH   | conarm                            | 1.2.4             | conarm-1.12.2-1.2.4.jar                              | 5d5b8aee896a4f5ea3f3114784742662a67ad32f |
+	| LCH   | cookingforblockheads              | 6.4.71            | CookingForBlockheads_1.12.2-6.4.71.jar               | None                                     |
+	| LCH   | crafttweakerjei                   | 2.0.3             | CraftTweaker2-1.12-4.1.19.jar                        | None                                     |
+	| LCH   | p455w0rdslib                      | 2.2.156           | p455w0rdslib-1.12.2-2.2.156.jar                      | 186bc454cd122c9c2f1aa4f95611254bcc543363 |
+	| LCH   | theoneprobe                       | 1.4.28            | theoneprobe-1.12-1.4.28.jar                          | None                                     |
+	| LCH   | danknull                          | 1.5.71            | DankNull-1.12.2-1.5.71.jar                           | 186bc454cd122c9c2f1aa4f95611254bcc543363 |
+	| LCH   | disenchanter                      | 1.6               | disenchanter-[1.12]1.6.jar                           | None                                     |
+	| LCH   | enderiobase                       | 5.0.46            | EnderIO-1.12.2-5.0.46.jar                            | None                                     |
+	| LCH   | enderioconduits                   | 5.0.46            | EnderIO-1.12.2-5.0.46.jar                            | None                                     |
+	| LCH   | enderioconduitsappliedenergistics | 5.0.46            | EnderIO-1.12.2-5.0.46.jar                            | None                                     |
+	| LCH   | enderioconduitsopencomputers      | 5.0.46            | EnderIO-1.12.2-5.0.46.jar                            | None                                     |
+	| LCH   | enderioconduitsrefinedstorage     | 5.0.46            | EnderIO-1.12.2-5.0.46.jar                            | None                                     |
+	| LCH   | enderiointegrationforestry        | 5.0.46            | EnderIO-1.12.2-5.0.46.jar                            | None                                     |
+	| LCH   | enderiointegrationticlate         | 5.0.46            | EnderIO-1.12.2-5.0.46.jar                            | None                                     |
+	| LCH   | enderiomachines                   | 5.0.46            | EnderIO-1.12.2-5.0.46.jar                            | None                                     |
+	| LCH   | enderiopowertools                 | 5.0.46            | EnderIO-1.12.2-5.0.46.jar                            | None                                     |
+	| LCH   | extrautils2                       | 1.0               | extrautils2-1.12-1.9.9.jar                           | None                                     |
+	| LCH   | farmingforblockheads              | 3.1.28            | FarmingForBlockheads_1.12.2-3.1.28.jar               | None                                     |
+	| LCH   | forgelin                          | 1.8.3             | Forgelin-1.8.3.jar                                   | None                                     |
+	| LCH   | gravestone                        | 1.10.1            | gravestone-1.10.1.jar                                | None                                     |
+	| LCH   | librarianlib                      | 4.19.2            | librarianlib-1.12.2-4.19.2-release.jar               | None                                     |
+	| LCH   | hooked                            | %VERSION%         | hooked-1.0.3.jar                                     | None                                     |
+	| LCH   | infoaccessories                   | 1.0.11            | InfoAccessories-1.12.2-1.0.11.jar                    | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCH   | loottweaker                       | 0.0.10            | LootTweaker-1.12.2-0.0.10.jar                        | None                                     |
+	| LCH   | psi                               | r1.1-77           | Psi-r1.1-77.jar                                      | None                                     |
+	| LCH   | magipsi                           | 1.3               | MagicalPsi-1.3.2.jar                                 | None                                     |
+	| LCH   | mcjtylib_ng                       | 3.5.4             | mcjtylib-1.12-3.5.4.jar                              | None                                     |
+	| LCH   | naturescompass                    | 1.5.1             | NaturesCompass-1.12.2-1.5.1.jar                      | None                                     |
+	| LCH   | harvestcraft                      | 1.12.2zb          | Pam's+HarvestCraft+1.12.2zd+Surprise+for+Yogcast.jar | None                                     |
+	| LCH   | reccomplex                        | 1.4.8.2           | RecurrentComplex-1.4.8.2.jar                         | None                                     |
+	| LCH   | roguelike                         | 1.8.0             | RoguelikeDungeons-1.12.2-1.8.0.jar                   | None                                     |
+	| LCH   | spiceoflife                       | 1.3.12            | SpiceOfLife-mc1.12-1.3.12.jar                        | None                                     |
+	| LCH   | storagedrawers                    | 1.12-5.3.5        | StorageDrawers-1.12.2-5.3.8.jar                      | None                                     |
+	| LCH   | topaddons                         | 1.12.2-1.11.0     | topaddons-1.12.2-1.11.0.jar                          | None                                     |
+	| LCH   | trumpetskeleton                   | 1.12-1.0.2.1      | trumpetskeleton-1.12-1.0.2.1.jar                     | None                                     |
+	| LCH   | wearablebackpacks                 | 3.1.3             | WearableBackpacks-1.12.2-3.1.3.jar                   | None                                     |
+	| LCH   | xnet                              | 1.8.2             | xnet-1.12-1.8.2.jar                                  | None                                     |
+	| LCH   | immersiveengineering              | 0.12-89           | ImmersiveEngineering-0.12-89.jar                     | 4cb49fcde3b43048c9889e0a3d083225da926334 |
+	| LCH   | librarianliblate                  | 4.19.2            | librarianlib-1.12.2-4.19.2-release.jar               | None                                     |
+
+	Loaded coremods (and transformers): 
+ForgelinPlugin (Forgelin-1.8.3.jar)
+  
+ComfortsCoreLoadingPlugin (comforts-1.12.2-1.1.1.1.jar)
+  c4.comforts.asm.SleepTransformer
+Quark Plugin (Quark-r1.5-168.jar)
+  vazkii.quark.base.asm.ClassTransformer
+IELoadingPlugin (ImmersiveEngineering-core-0.12-89.jar)
+  blusunrize.immersiveengineering.common.asm.IEClassTransformer
+LibrarianLib Plugin (librarianlib-1.12.2-4.19.2-release.jar)
+  com.teamwizardry.librarianlib.asm.LibLibTransformer
+AppleCore (AppleCore-mc1.12.2-3.2.0.jar)
+  squeek.applecore.asm.TransformerModuleHandler
+EnderCorePlugin (EnderCore-1.12.2-0.5.59-core.jar)
+  com.enderio.core.common.transform.EnderCoreTransformer
+  com.enderio.core.common.transform.SimpleMixinPatcher
+IvToolkit (IvToolkit-1.3.3-1.12.jar)
+  
+p455w0rdc0re (p455w0rdslib-1.12.2-2.2.156.jar)
+  p455w0rdslib.asm.ClassTransformer
+	AE2 Version: stable rv6-stable-7 for Forge 14.23.5.2768
+	Pulsar/tconstruct loaded Pulses: 
+		- TinkerCommons (Enabled/Forced)
+		- TinkerWorld (Enabled/Not Forced)
+		- TinkerTools (Enabled/Not Forced)
+		- TinkerHarvestTools (Enabled/Forced)
+		- TinkerMeleeWeapons (Enabled/Forced)
+		- TinkerRangedWeapons (Enabled/Forced)
+		- TinkerModifiers (Enabled/Forced)
+		- TinkerSmeltery (Enabled/Not Forced)
+		- TinkerGadgets (Enabled/Not Forced)
+		- TinkerOredict (Enabled/Forced)
+		- TinkerIntegration (Enabled/Forced)
+		- TinkerFluids (Enabled/Forced)
+		- TinkerMaterials (Enabled/Forced)
+		- TinkerModelRegister (Enabled/Forced)
+		- theoneprobeIntegration (Enabled/Not Forced)
+
+	[Psi] Active spell: None
+	Ender IO: Found the following problem(s) with your installation (That does NOT mean that Ender IO caused the crash or was involved in it in any way. We add this information to help finding common problems, not as an invitation to post any crash you encounter to Ender IO's issue tracker. Always check the stack trace above to see which mod is most likely failing.):
+                  * Offline mode for dedicated servers is NOT supported by Ender IO.
+                 This may (look up the meaning of 'may' in the dictionary if you're not sure what it means) have caused the error. Try reproducing the crash WITHOUT this/these mod(s) before reporting it.
+
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!You are looking at the diagnostics information, not at the crash.       !!!
+	!!!Scroll up until you see the line with '---- Minecraft Crash Report ----'!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)

@@ -1,0 +1,14 @@
+{
+  "name": "ocean:loot",
+  "loot_rules": [
+    {
+      "level": [1,  2,  3,  4],
+      "type": "REWARD",
+      "loot": [
+		{"data" : {"name" : "extrautils2:creativeharvest", "nbt" : "{creative_block: {meta: 1, block: \"minecraft:sponge\"}, display_stack: {id: \"minecraft:sponge\", Count: 1, Damage: 1}}"}, "weight" : 10}
+      ],
+      "each": false,
+      "quantity": 1
+    }
+  ]
+}

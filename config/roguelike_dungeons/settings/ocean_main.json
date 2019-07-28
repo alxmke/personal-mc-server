@@ -1,0 +1,20 @@
+{
+	"name" : "ocean:main",
+	"exclusive" : true,
+	"criteria" : {
+		"biomeTypes" : [
+			"OCEAN"
+		]
+	},
+	"inherit" : [
+		"ocean:tower",
+		"ocean:theme",
+		"ocean:loot",
+		"ocean:rooms",
+		"builtin:rooms",
+		"builtin:secrets",
+		"builtin:segments",
+		"builtin:layout",
+		"builtin:loot"
+	]
+}

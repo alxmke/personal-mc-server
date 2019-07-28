@@ -1,0 +1,353 @@
+{
+  "name": "end:theme",
+  "themes": [
+    {
+      "level": 0,
+      "primary": {
+        "walls": {
+          "type": "WEIGHTED",
+          "data": [
+            {
+              "type": "METABLOCK",
+              "data": {
+                "name": "end_bricks"
+              },
+              "weight": 5
+            },
+            {
+              "type": "METABLOCK",
+              "data": {
+                "name": "end_stone"
+              },
+              "weight": 2
+            },
+            {
+              "type": "METABLOCK",
+              "data": {
+                "name": "quark:biotite_ore"
+              },
+              "weight": 1
+            },
+            {
+              "type": "METABLOCK",
+              "data": {
+                "name": "obsidian"
+              },
+              "weight": 2
+            }
+          ]
+        },
+        "pillar": {
+          "type": "METABLOCK",
+          "data": {
+            "name": "purpur_pillar"
+          }
+        },
+        "stair": {
+          "type": "METABLOCK",
+          "data": {
+            "name": "purpur_stairs"
+          }
+        }
+      },
+      "secondary": {
+        "walls": {
+          "type": "METABLOCK",
+          "data": {
+            "name": "purpur_block"
+          }
+        },
+        "pillar": {
+          "type": "METABLOCK",
+          "data": {
+            "name": "purpur_pillar"
+          }
+        },
+        "stair": {
+          "type": "METABLOCK",
+          "data": {
+            "name": "purpur_stairs"
+          }
+        }
+      }
+    },
+    {
+      "level": 1,
+      "primary": {
+        "walls": {
+          "type": "WEIGHTED",
+          "data": [
+            {
+              "type": "METABLOCK",
+              "data": {
+                "name": "purpur_block"
+              },
+              "weight": 5
+            },
+            {
+              "type": "METABLOCK",
+              "data": {
+                "name": "purpur_pillar"
+              },
+              "weight": 2
+            },
+            {
+              "type": "METABLOCK",
+              "data": {
+                "name": "end_stone"
+              },
+              "weight": 2
+            }
+          ]
+        },
+        "pillar": {
+          "type": "METABLOCK",
+          "data": {
+            "name": "purpur_pillar"
+          }
+        },
+        "stair": {
+          "type": "METABLOCK",
+          "data": {
+            "name": "purpur_stairs"
+          }
+        }
+      },
+      "secondary": {
+        "walls": {
+          "type": "METABLOCK",
+          "data": {
+            "name": "end_stone"
+          }
+        },
+        "pillar": {
+          "type": "METABLOCK",
+          "data": {
+            "name": "purpur_pillar"
+          }
+        },
+        "stair": {
+          "type": "METABLOCK",
+          "data": {
+            "name": "purpur_stairs"
+          }
+        }
+      }
+    },
+    {
+      "level": 2,
+      "primary": {
+        "walls": {
+          "type": "WEIGHTED",
+          "data": [
+            {
+              "type": "METABLOCK",
+              "data": {
+                "name": "purpur_block"
+              },
+              "weight": 20
+            },
+            {
+              "type": "METABLOCK",
+              "data": {
+                "name": "quark:duskbound_block"
+              },
+              "weight": 10
+            },
+            {
+              "type": "METABLOCK",
+              "data": {
+                "name": "purpur_pillar"
+              },
+              "weight": 15
+            },
+            {
+              "type": "METABLOCK",
+              "data": {
+                "name": "quark:duskbound_lantern"
+              },
+              "weight": 1
+            }
+          ]
+        },
+        "pillar": {
+          "type": "METABLOCK",
+          "data": {
+            "name": "purpur_pillar"
+          }
+        },
+        "stair": {
+          "type": "METABLOCK",
+          "data": {
+            "name": "purpur_stairs"
+          }
+        },
+        "door": {
+          "name": "iron_door"
+        }
+      },
+      "secondary": {
+        "walls": {
+          "type": "METABLOCK",
+          "data": {
+            "name": "quark:duskbound_block"
+          }
+        },
+        "pillar": {
+          "type": "METABLOCK",
+          "data": {
+            "name": "quark:biotite_block",
+            "meta": 2
+          }
+        },
+        "stair": {
+          "type": "METABLOCK",
+          "data": {
+            "name": "quark:duskbound_block_stairs"
+          }
+        }
+      }
+    },
+    {
+      "level": 3,
+      "primary": {
+        "walls": {
+          "type": "WEIGHTED",
+          "data": [
+            {
+              "type": "METABLOCK",
+              "data": {
+                "name": "quark:duskbound_block"
+              },
+              "weight": 20
+            },
+            {
+              "type": "METABLOCK",
+              "data": {
+                "name": "quark:duskbound_lantern"
+              },
+              "weight": 1
+            },
+            {
+              "type": "METABLOCK",
+              "data": {
+                "name": "quark:biotite_block",
+                "meta": 1
+              },
+              "weight": 15
+            }
+          ]
+        },
+        "stair": {
+          "type": "METABLOCK",
+          "data": {
+            "name": "quark:duskbound_block_stairs"
+          }
+        },
+        "pillar": {
+          "type": "METABLOCK",
+          "data": {
+            "name": "quark:biotite_block",
+            "meta": 2
+          }
+        },
+        "door": {
+          "name": "iron_door"
+        }
+      },
+      "secondary": {
+        "walls": {
+          "type": "METABLOCK",
+          "data": {
+            "name": "quark:biotite_block",
+            "meta": 1
+          }
+        },
+        "pillar": {
+          "type": "METABLOCK",
+          "data": {
+            "name": "quark:biotite_block",
+            "meta": 2
+          }
+        },
+        "stair": {
+          "type": "METABLOCK",
+          "data": {
+            "name": "quark:biotite_stairs"
+          }
+        }
+      }
+    },
+    {
+      "level": 4,
+      "primary": {
+        "walls": {
+          "type": "WEIGHTED",
+          "data": [
+            {
+              "type": "METABLOCK",
+              "data": {
+                "name": "end_bricks"
+              },
+              "weight": 15
+            },
+            {
+              "type": "METABLOCK",
+              "data": {
+                "name": "quark:biotite_block",
+                "meta": 1
+              },
+              "weight": 9
+            },
+            {
+              "type": "METABLOCK",
+              "data": {
+                "name": "quark:biotite_block"
+              },
+              "weight": 30
+            }
+          ]
+        },
+        "stair": {
+          "type": "METABLOCK",
+          "data": {
+            "name": "quark:biotite_stairs"
+          }
+        },
+        "pillar": {
+          "type": "METABLOCK",
+          "data": {
+            "name": "quark:biotite_block",
+            "meta": 2
+          }
+        }
+      },
+      "secondary": {
+        "walls": {
+          "type": "WEIGHTED",
+          "data": [
+            {
+              "type": "METABLOCK",
+              "data": {
+                "name": "quark:duskbound_block"
+              },
+              "weight": 1
+            }
+          ]
+        },
+        "stair": {
+          "type": "METABLOCK",
+          "data": {
+            "name": "quark:biotite_stairs"
+          }
+        },
+        "pillar": {
+          "type": "METABLOCK",
+          "data": {
+            "name": "end_bricks"
+          }
+        }
+      }
+    }
+  ]
+}

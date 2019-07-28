@@ -1,0 +1,20 @@
+{
+	"name" : "end:rooms",
+	"rooms" : [
+		{"level" : [1, 2, 3, 4], "type" : "single", "name" : "REWARD"},
+		{"level" : [0, 1, 2, 3, 4], "type" : "random", "name" : "BRICK", "weight" : 10},
+		{"level" : [0, 1, 2, 3, 4], "type" : "random", "name" : "LAB", "weight" : 10},
+		{"level" : [0, 1, 2, 3, 4], "type" : "random", "name" : "MESS", "weight" : 10},
+		{"level" : [0, 1, 2, 3, 4], "type" : "random", "name" : "PIT", "weight" : 10},
+		{"level" : [0, 1, 2, 3, 4], "type" : "random", "name" : "OSSUARY", "weight" : 10},
+		{"level" : [0, 1, 2, 3, 4], "type" : "random", "name" : "CRYPT", "weight" : 10},
+		{"level" : [0, 1, 2, 3, 4], "type" : "random", "name" : "PRISON", "weight" : 10},
+		{"level" : [0, 1, 2, 3, 4], "type" : "random", "name" : "STORAGE", "weight" : 10},		
+		{"level" : [0, 1, 2, 3, 4], "type" : "random", "name" : "LIBRARY", "weight" : 10},
+		{"level" : [0, 1, 2, 3, 4], "type" : "random", "name" : "DARKHALL", "weight" : 10},
+		{"level" : [0, 1, 2, 3, 4], "type" : "random", "name" : "PYRAMIDTOMB", "weight" : 10},
+		{"level" : [0, 1, 2, 3, 4], "type" : "random", "name" : "PYRAMIDSPAWNER", "weight" : 10},
+		{"level" : [0, 1, 2, 3, 4], "type" : "random", "name" : "PYRAMIDCORNER", "weight" : 10},
+		{"level" : 3, "type" : "single", "name" : "ENDER"}
+	]
+}
