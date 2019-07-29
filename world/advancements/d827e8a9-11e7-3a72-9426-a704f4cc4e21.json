@@ -293,6 +293,12 @@
     },
     "done": true
   },
+  "immersiveengineering:main/make_steel": {
+    "criteria": {
+      "craft_hammer": "2019-07-29 05:28:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_door": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:06:02 +0000"

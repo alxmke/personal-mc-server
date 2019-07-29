@@ -221,6 +221,12 @@
     },
     "done": true
   },
+  "enderio:gears/g3_iron_gear": {
+    "criteria": {
+      "inv_changed-enderio:item_material": "2019-07-29 08:43:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/shears": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:06:16 +0000"
@@ -293,6 +299,12 @@
     },
     "done": true
   },
+  "enderioconduits:item/1_item_conduit": {
+    "criteria": {
+      "inv_changed-enderio:item_conduit": "2019-07-29 15:27:20 +0000"
+    },
+    "done": true
+  },
   "immersiveengineering:main/make_steel": {
     "criteria": {
       "craft_hammer": "2019-07-28 09:45:00 +0000"
@@ -341,9 +353,21 @@
     },
     "done": true
   },
+  "enderiomachines:basics/sagmill/1_sagmill_get": {
+    "criteria": {
+      "inv_changed-enderio:block_simple_sag_mill": "2019-07-29 14:58:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_sandstone_stairs": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:06:16 +0000"
+    },
+    "done": true
+  },
+  "enderioconduits:start/1_binder_composite": {
+    "criteria": {
+      "inv_changed-enderio:binder_composite": "2019-07-29 15:10:38 +0000"
     },
     "done": true
   },
@@ -424,6 +448,12 @@
   "minecraft:recipes/building_blocks/sandstone_slab": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:06:16 +0000"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/cable_glass": {
+    "criteria": {
+      "certus": "2019-07-29 07:15:58 +0000"
     },
     "done": true
   },
@@ -668,6 +698,7 @@
       "zombie": "2019-07-24 21:16:00 +0000",
       "silverfish": "2019-07-26 12:33:28 +0000",
       "witch": "2019-07-24 23:51:27 +0000",
+      "guardian": "2019-07-29 00:29:22 +0000",
       "spider": "2019-07-24 22:00:06 +0000",
       "ghast": "2019-07-28 10:27:06 +0000",
       "creeper": "2019-07-26 03:39:49 +0000",
@@ -783,6 +814,12 @@
     },
     "done": true
   },
+  "appliedenergistics2:main/interface": {
+    "criteria": {
+      "certus": "2019-07-29 09:32:47 +0000"
+    },
+    "done": true
+  },
   "immersiveengineering:main/multiblock_blastfurnace": {
     "criteria": {
       "form_blastfurnace": "2019-07-28 08:33:32 +0000"
@@ -800,6 +837,13 @@
       "has_the_recipe": "2019-07-24 20:06:16 +0000"
     },
     "done": true
+  },
+  "enderiomachines:basics/goal/1_all_simple_get": {
+    "criteria": {
+      "inv_changed-enderio:block_simple_sag_mill": "2019-07-29 14:58:15 +0000",
+      "inv_changed-enderio:block_simple_alloy_smelter": "2019-07-29 14:58:15 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/purple_bed": {
     "criteria": {
@@ -1089,6 +1133,12 @@
     },
     "done": true
   },
+  "immersiveengineering:main/place_windmill": {
+    "criteria": {
+      "place_windmill": "2019-07-29 10:14:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/orange_banner": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:06:16 +0000"
@@ -1098,6 +1148,13 @@
   "minecraft:recipes/building_blocks/spruce_wooden_slab": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:06:16 +0000"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/presses": {
+    "criteria": {
+      "silicon": "2019-07-29 00:49:57 +0000",
+      "logic": "2019-07-29 00:49:57 +0000"
     },
     "done": true
   },
@@ -1161,6 +1218,12 @@
     },
     "done": true
   },
+  "enderioconduits:start/2_conduit_binder": {
+    "criteria": {
+      "inv_changed-enderio:conduit_binder": "2019-07-29 15:10:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/sticky_piston": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:06:16 +0000"
@@ -1190,6 +1253,8 @@
       "forest": "2019-07-24 20:06:16 +0000",
       "swampland": "2019-07-24 23:58:51 +0000",
       "birch_forest": "2019-07-24 20:37:05 +0000",
+      "deep_ocean": "2019-07-28 23:59:36 +0000",
+      "beaches": "2019-07-28 23:59:20 +0000",
       "extreme_hills_with_trees": "2019-07-25 07:05:29 +0000",
       "desert_hills": "2019-07-24 21:21:50 +0000",
       "forest_hills": "2019-07-24 20:07:19 +0000",
@@ -1199,6 +1264,7 @@
       "taiga": "2019-07-25 00:02:55 +0000",
       "taiga_hills": "2019-07-25 01:25:18 +0000",
       "birch_forest_hills": "2019-07-24 20:57:26 +0000",
+      "ocean": "2019-07-28 23:59:26 +0000",
       "extreme_hills": "2019-07-25 07:05:15 +0000",
       "roofed_forest": "2019-07-25 00:04:32 +0000",
       "river": "2019-07-24 20:08:32 +0000",
@@ -1356,6 +1422,12 @@
     },
     "done": true
   },
+  "immersiveengineering:main/place_conveyor": {
+    "criteria": {
+      "place_conveyor": "2019-07-29 03:27:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/red_stained_glass_pane": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:06:16 +0000"
@@ -1413,6 +1485,12 @@
   "minecraft:recipes/building_blocks/prismarine": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:06:16 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/connect_wire": {
+    "criteria": {
+      "code_trigger": "2019-07-29 03:33:10 +0000"
     },
     "done": true
   },
@@ -1479,6 +1557,12 @@
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:06:16 +0000"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/storage_cell": {
+    "criteria": {
+      "c1k": "2019-07-29 08:40:36 +0000"
     },
     "done": true
   },
@@ -1680,6 +1764,12 @@
     },
     "done": true
   },
+  "enderiomachines:basics/alloy/1_alloy_smelter_get": {
+    "criteria": {
+      "inv_changed-enderio:block_simple_alloy_smelter": "2019-07-29 14:58:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/blue_stained_glass": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:06:16 +0000"
@@ -1695,6 +1785,12 @@
   "minecraft:recipes/decorations/sign": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:06:16 +0000"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/crafting_cpu": {
+    "criteria": {
+      "c1k": "2019-07-29 09:32:47 +0000"
     },
     "done": true
   },
@@ -1760,6 +1856,7 @@
       "apple": "2019-07-26 23:18:11 +0000",
       "potato": "2019-07-24 22:37:33 +0000",
       "cooked_cod": "2019-07-24 23:53:12 +0000",
+      "pumpkin_pie": "2019-07-29 09:27:09 +0000",
       "mutton": "2019-07-25 00:09:55 +0000",
       "bread": "2019-07-24 22:12:05 +0000",
       "rotten_flesh": "2019-07-24 20:47:34 +0000",
@@ -1791,6 +1888,12 @@
   "minecraft:recipes/decorations/orange_stained_glass_pane": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:06:16 +0000"
+    },
+    "done": true
+  },
+  "enderiomachines:basics/sagmill/9_white": {
+    "criteria": {
+      "inv_changed-enderio:item_material": "2019-07-29 07:01:50 +0000"
     },
     "done": true
   },
@@ -1839,6 +1942,12 @@
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:06:16 +0000"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/charger": {
+    "criteria": {
+      "certus": "2019-07-29 03:59:34 +0000"
     },
     "done": true
   },
@@ -1980,6 +2089,13 @@
     },
     "done": true
   },
+  "enderioconduits:goals/all_conduits": {
+    "criteria": {
+      "inv_changed-enderio:power_conduit2": "2019-07-29 15:11:04 +0000",
+      "inv_changed-enderio:item_conduit2": "2019-07-29 15:27:20 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/food/golden_apple": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:06:16 +0000"
@@ -2106,6 +2222,12 @@
     },
     "done": true
   },
+  "immersiveengineering:main/craft_workbench": {
+    "criteria": {
+      "craft_hammer": "2019-07-29 09:11:19 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/end_crystal": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:06:16 +0000"
@@ -2121,6 +2243,12 @@
   "minecraft:recipes/decorations/green_bed_from_white_bed": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:06:16 +0000"
+    },
+    "done": true
+  },
+  "enderiomachines:basics/alloy/2_energetic_alloy_get": {
+    "criteria": {
+      "inv_changed-enderio:item_energetic_alloy": "2019-07-29 15:09:56 +0000"
     },
     "done": true
   },
@@ -2199,6 +2327,12 @@
   "minecraft:story/upgrade_tools": {
     "criteria": {
       "stone_pickaxe": "2019-07-24 23:31:44 +0000"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/compass": {
+    "criteria": {
+      "compass": "2019-07-29 03:49:42 +0000"
     },
     "done": true
   },
@@ -2406,6 +2540,12 @@
     },
     "done": true
   },
+  "enderio:gears/g5_vibrant_gear": {
+    "criteria": {
+      "inv_changed-enderio:item_material": "2019-07-29 08:43:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:06:16 +0000"
@@ -2433,6 +2573,12 @@
   "minecraft:recipes/building_blocks/light_blue_stained_hardened_clay": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:06:16 +0000"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/crafting_terminal": {
+    "criteria": {
+      "certus": "2019-07-29 08:39:16 +0000"
     },
     "done": true
   },
@@ -2469,6 +2615,12 @@
   "minecraft:recipes/building_blocks/smooth_red_sandstone": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:06:16 +0000"
+    },
+    "done": true
+  },
+  "enderioconduits:energy/1_energy_conduit": {
+    "criteria": {
+      "inv_changed-enderio:power_conduit": "2019-07-29 15:11:04 +0000"
     },
     "done": true
   },
@@ -2550,6 +2702,12 @@
     },
     "done": true
   },
+  "appliedenergistics2:main/controller": {
+    "criteria": {
+      "certus": "2019-07-29 08:25:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/obtain_blaze_rod": {
     "criteria": {
       "blaze_rod": "2019-07-26 07:17:17 +0000"
@@ -2568,6 +2726,12 @@
     },
     "done": true
   },
+  "immersiveengineering:main/root": {
+    "criteria": {
+      "hold_manual": "2019-07-29 01:35:49 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:06:16 +0000"
@@ -2583,6 +2747,12 @@
   "minecraft:recipes/building_blocks/pink_stained_hardened_clay": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:06:16 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/multiblock_metalpress": {
+    "criteria": {
+      "form_blastfurnace": "2019-07-29 03:27:37 +0000"
     },
     "done": true
   },
@@ -2622,6 +2792,12 @@
     },
     "done": true
   },
+  "appliedenergistics2:main/growth_accelerator": {
+    "criteria": {
+      "certus": "2019-07-29 07:15:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:06:16 +0000"
@@ -2640,6 +2816,12 @@
     },
     "done": true
   },
+  "appliedenergistics2:main/pattern_terminal": {
+    "criteria": {
+      "certus": "2019-07-29 09:34:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/birch_stairs": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:06:16 +0000"
@@ -2649,6 +2831,12 @@
   "minecraft:recipes/building_blocks/jungle_stairs": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:06:16 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/craft_heater": {
+    "criteria": {
+      "craft_hammer": "2019-07-29 15:28:58 +0000"
     },
     "done": true
   },
@@ -2697,6 +2885,12 @@
   "minecraft:recipes/building_blocks/pink_wool": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:06:16 +0000"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/fluix": {
+    "criteria": {
+      "certus": "2019-07-29 03:54:16 +0000"
     },
     "done": true
   },
@@ -2811,6 +3005,12 @@
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2019-07-24 23:54:36 +0000"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/network1": {
+    "criteria": {
+      "cable": "2019-07-29 15:01:58 +0000"
     },
     "done": true
   },
