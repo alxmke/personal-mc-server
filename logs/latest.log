@@ -1857,3 +1857,20 @@ Caused by: java.lang.ArrayIndexOutOfBoundsException: -1
 [16:07:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [alxmke: Set own game mode to Survival Mode]
 [16:14:38] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: alxmke lost connection: Internal Exception: io.netty.channel.unix.Errors$NativeIoException: syscall:read(..) failed: Connection reset by peer
 [16:14:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: alxmke left the game
+[16:18:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
+[16:18:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[16:18:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[16:18:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[16:18:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[16:18:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/ExtraUtils2_Quarry_Dim
+[16:18:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/Storage Cell
+[16:18:23] [Server thread/INFO] [THAUMCRAFT]: Removing aura cache for world 0
+[16:18:23] [Server thread/INFO] [THAUMCRAFT]: Removing aura cache for world -9999
+[16:18:23] [Server thread/INFO] [THAUMCRAFT]: Removing aura cache for world 2
+[16:18:23] [Server thread/INFO] [FML]: Unloading dimension 0
+[16:18:23] [Server thread/INFO] [FML]: Unloading dimension -9999
+[16:18:23] [Server thread/INFO] [FML]: Unloading dimension 2
+[16:18:23] [Server thread/INFO] [mcjtylib_ng]: Cleaning up all world data: 2 data blobs
+[16:18:23] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[16:18:23] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[16:18:23] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
