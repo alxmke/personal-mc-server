@@ -42,15 +42,14 @@ XML editor will display that as tooltips when editing this file.
    -->
 
   <recipe name="Lava Generation" required="true">
-    <fermenting energy="50000">
+    <fermenting energy="20000">
       <inputgroup>
         <input name="minecraft:cobblestone" multiplier="1.0"/>
       </inputgroup>
       <inputgroup>
         <input name="minecraft:cobblestone" multiplier="1.0"/>
-        <input name="minecraft:netherrack" multiplier="1.5"/>
       </inputgroup>
-      <inputfluid name="water" multiplier="0.25"/>
+      <inputfluid name="water" multiplier="1"/>
       <outputfluid name="lava"/>
     </fermenting>
   </recipe>

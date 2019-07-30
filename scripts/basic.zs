@@ -27,32 +27,14 @@ recipes.addShapeless(<minecraft:feather>, [<ore:materialCloth>, <ore:stickWood>]
 recipes.remove(<minecraft:leather_helmet>);
 recipes.remove(<minecraft:leather_chestplate>);
 recipes.remove(<minecraft:leather_leggings>);
-recipes.remove(<minecraft:leather_boots>); 
+recipes.remove(<minecraft:leather_boots>);
 
-recipes.addShaped(<infoaccessories:info_accessory:0>, 
-	[[null, <ore:ingotSilver>, null],
-	[<ore:ingotSilver>, <ore:dustRedstone>, <ore:ingotSilver>],
-	[null, <ore:ingotSilver>, null]]);
-recipes.addShaped(<infoaccessories:info_accessory:1>, 
-	[[null, <ore:ingotGold>, <ore:paneGlassColorless>],
-	[<ore:ingotGold>, null, <ore:ingotGold>],
-	[<ore:paneGlassColorless>, <ore:ingotGold>, null]]);
-recipes.addShaped(<infoaccessories:info_accessory:2>, 
-	[[null, <ore:ingotAluminum>, null],
-	[<ore:ingotAluminum>, <ore:dustRedstone>, <ore:ingotAluminum>],
-	[null, <ore:ingotAluminum>, null]]);
-recipes.addShaped(<infoaccessories:info_accessory:5>, 
-	[[null, <ore:paper>, null],
-	[<ore:paper>, <ore:dustRedstone>, <ore:paper>],
-	[null, <ore:paper>, null]]);
-recipes.addShaped(<infoaccessories:info_accessory:6>, 
-	[[null, <ore:ingotCopper>, null],
-	[<ore:ingotCopper>, <ore:dustRedstone>, <ore:ingotCopper>],
-	[null, <ore:ingotCopper>, null]]);
-
-/*Blockhead*/
-recipes.remove(<cookingforblockheads:recipe_book:2>);
-recipes.addShapeless(<cookingforblockheads:recipe_book:2>, [<cookingforblockheads:recipe_book:1>, <ore:workbench>]); 
-recipes.remove(<harvestcraft:market>);
-
-recipes.addShapeless(<minecraft:milk_bucket>, [<ore:listAllmilk>, <ore:listAllmilk>, <ore:listAllmilk>, <ore:listAllmilk>, <minecraft:bucket>]); 
+/*Map*/
+recipes.removeShaped(<minecraft:map>,
+	[[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>],
+	[<minecraft:paper>, <minecraft:compass>, <minecraft:paper>],
+	[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
+recipes.addShaped(<minecraft:map>,
+	[[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>],
+	[<minecraft:paper>, <minecraft:compass>.reuse(), <minecraft:paper>],
+	[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);

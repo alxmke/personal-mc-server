@@ -37,6 +37,6 @@
   ],
   "custom entries": {
     "__comment": "You can define additional items to be sold by the Market here. Defaults can be overridden. Prefix with ! to blacklist instead.",
-    "examplemod:example_item": "2*minecraft:emerald"
+    "minecraft:dye:3": "2*minecraft:emerald"
   }
 }
