@@ -439,6 +439,12 @@
     },
     "done": true
   },
+  "appliedenergistics2:main/cable_glass": {
+    "criteria": {
+      "certus": "2019-07-30 07:14:49 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/emerald": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:02:11 +0000"
@@ -2085,6 +2091,12 @@
     },
     "done": true
   },
+  "enderioconduits:goals/all_conduits": {
+    "criteria": {
+      "inv_changed-enderio:power_conduit_ender2": "2019-07-30 06:33:14 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/food/golden_apple": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:02:10 +0000"
@@ -2607,9 +2619,21 @@
     },
     "done": true
   },
+  "enderioconduits:energy/1_energy_conduit": {
+    "criteria": {
+      "inv_changed-enderio:power_conduit": "2019-07-30 06:33:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2019-07-24 20:10:33 +0000"
+    },
+    "done": true
+  },
+  "enderioconduits:energy/3_energy_conduit_ender": {
+    "criteria": {
+      "inv_changed-enderio:power_conduit_ender": "2019-07-30 06:33:14 +0000"
     },
     "done": true
   },
