@@ -5,6 +5,12 @@
     },
     "done": true
   },
+  "immersiveengineering:main/multiblock_dieselgenerator": {
+    "criteria": {
+      "form_blastfurnace": "2019-07-31 13:18:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/purple_stained_glass_pane": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:06:16 +0000"
@@ -566,6 +572,12 @@
     },
     "done": true
   },
+  "appliedenergistics2:main/portable_cell": {
+    "criteria": {
+      "portable_cell": "2019-07-31 07:15:49 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:06:16 +0000"
@@ -706,6 +718,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "zombie_pigman": "2019-07-31 06:43:54 +0000",
       "wither_skeleton": "2019-07-26 21:38:04 +0000",
       "zombie_villager": "2019-07-24 23:02:44 +0000",
       "magma_cube": "2019-07-26 05:38:02 +0000",
@@ -1900,6 +1913,7 @@
       "raw_cod": "2019-07-25 03:54:37 +0000",
       "beetroot": "2019-07-25 00:37:14 +0000",
       "mushroom_stew": "2019-07-25 00:00:57 +0000",
+      "rabbit_stew": "2019-07-31 06:55:00 +0000",
       "carrot": "2019-07-24 22:12:40 +0000"
     },
     "done": false
@@ -3013,6 +3027,12 @@
   "enderio:root": {
     "criteria": {
       "location": "2019-07-25 00:43:29 +0000"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/ioport": {
+    "criteria": {
+      "certus": "2019-07-31 11:22:39 +0000"
     },
     "done": true
   },

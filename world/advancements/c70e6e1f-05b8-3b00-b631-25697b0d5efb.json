@@ -541,6 +541,12 @@
     },
     "done": true
   },
+  "appliedenergistics2:main/portable_cell": {
+    "criteria": {
+      "portable_cell": "2019-07-31 07:21:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:02:11 +0000"
@@ -1067,6 +1073,12 @@
   "minecraft:recipes/building_blocks/sea_lantern": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:02:10 +0000"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/storage_bus": {
+    "criteria": {
+      "part": "2019-07-31 11:35:30 +0000"
     },
     "done": true
   },
@@ -1864,6 +1876,7 @@
       "bread": "2019-07-24 22:45:01 +0000",
       "rotten_flesh": "2019-07-24 22:31:36 +0000",
       "beetroot": "2019-07-25 00:59:47 +0000",
+      "enchanted_golden_apple": "2019-07-31 06:33:55 +0000",
       "rabbit_stew": "2019-07-29 02:59:10 +0000",
       "carrot": "2019-07-24 23:25:03 +0000"
     },
