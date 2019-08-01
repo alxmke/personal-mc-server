@@ -18,7 +18,7 @@
 [PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: TC-slime_casting.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: TCon-EIO.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Thaum-IE.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 4ms
+[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 2ms
 [INITIALIZATION][SERVER][INFO] CraftTweaker: Building registry
 [INITIALIZATION][SERVER][INFO] CraftTweaker: Successfully built item registry
 [INITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit], [recipeevent | crafttweaker]]
@@ -89,7 +89,7 @@
 [INITIALIZATION][SERVER][INFO] Altering Alloy Recipe(s) for <liquid:dark_steel>
 [INITIALIZATION][SERVER][INFO] Altering Alloy Recipe(s) for <liquid:pulsating_iron>
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Thaum-IE.zs}
-[INITIALIZATION][SERVER][INFO] Completed script loading in: 597ms
+[INITIALIZATION][SERVER][INFO] Completed script loading in: 471ms
 [POSTINITIALIZATION][SERVER][INFO] Removing recipes for various outputs
 [POSTINITIALIZATION][SERVER][INFO] Removing Shaped recipes for <minecraft:map>
 [POSTINITIALIZATION][SERVER][INFO] 1 removed
