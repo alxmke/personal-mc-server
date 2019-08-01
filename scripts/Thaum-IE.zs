@@ -19,5 +19,5 @@ val TArray = [
 ] as IItemStack[];
 
 for item in TArray {
-	recipes.addShapeless(item * 2, [item,<ore:paper>,<thaumcraft:scribing_tools:*>]);
+	recipes.addShapeless(item * 2, [item,<ore:paper>,<thaumcraft:scribing_tools:*>.reuse()]);
 }
