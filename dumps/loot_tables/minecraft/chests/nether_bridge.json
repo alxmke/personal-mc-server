@@ -1,0 +1,257 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:diamond",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond"
+        },
+        {
+          "entryName": "minecraft:iron_ingot",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "entryName": "minecraft:gold_ingot",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "entryName": "minecraft:golden_sword",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:golden_sword"
+        },
+        {
+          "entryName": "minecraft:golden_chestplate",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:golden_chestplate"
+        },
+        {
+          "entryName": "minecraft:flint_and_steel",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:flint_and_steel"
+        },
+        {
+          "entryName": "minecraft:nether_wart",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:nether_wart"
+        },
+        {
+          "entryName": "minecraft:saddle",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:saddle"
+        },
+        {
+          "entryName": "minecraft:golden_horse_armor",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:golden_horse_armor"
+        },
+        {
+          "entryName": "minecraft:iron_horse_armor",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_horse_armor"
+        },
+        {
+          "entryName": "minecraft:diamond_horse_armor",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:diamond_horse_armor"
+        },
+        {
+          "entryName": "minecraft:obsidian",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:obsidian"
+        },
+        {
+          "entryName": "quark:rune",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 0.0,
+                "max": 15.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "quark:rune"
+        },
+        {
+          "entryName": "buildinggadgets:constructionpaste",
+          "weight": 20,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 8.0,
+                "max": 64.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "buildinggadgets:constructionpaste"
+        },
+        {
+          "entryName": "buildinggadgets:constructionpastecontainer",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{amount:512}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "buildinggadgets:constructionpastecontainer"
+        },
+        {
+          "entryName": "buildinggadgets:constructionpastecontainert2",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{amount:2048}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "buildinggadgets:constructionpastecontainert2"
+        },
+        {
+          "entryName": "tconstruct:materials",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 50.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tconstruct:materials"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 4.0
+      }
+    },
+    {
+      "name": "Ender IO",
+      "entries": [
+        {
+          "entryName": "enderio:chests/nether_bridge",
+          "weight": 1,
+          "quality": 1,
+          "type": "loot_table",
+          "name": "enderio:chests/nether_bridge"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    },
+    {
+      "name": "xuLootDropOfEvil",
+      "entries": [
+        {
+          "entryName": "ferrousjuniperSapling",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.1,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "extrautils2:ironwood_sapling"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 3.0
+      }
+    }
+  ]
+}
