@@ -15,7 +15,8 @@ val TArray = [
 	<thaumcraft:celestial_notes:8>,
 	<thaumcraft:celestial_notes:9>,
 	<thaumcraft:celestial_notes:10>,
-	<thaumcraft:celestial_notes:11>
+	<thaumcraft:celestial_notes:11>,
+	<thaumcraft:celestial_notes:12>
 ] as IItemStack[];
 
 for item in TArray {

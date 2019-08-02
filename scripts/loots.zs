@@ -35,26 +35,26 @@ val ect_main = end_city_treasure.getPool("main");
 
 /*Tier 1*/
 
-vb_main.addItemEntryJson(<buildinggadgets:constructionpaste>, 20, 1, [{"count": {"min": 8.0, "max": 64.0}, "function": "minecraft:set_count"}], []);
-ic_main.addItemEntryJson(<buildinggadgets:constructionpaste>, 20, 1, [{"count": {"min": 8.0, "max": 64.0}, "function": "minecraft:set_count"}], []);
+vb_main.addItemEntryJson(<buildinggadgets:constructionpaste>, 20, 1, [{"count": {"min": 8.0, "max": 32.0}, "function": "minecraft:set_count"}], []);
+ic_main.addItemEntryJson(<buildinggadgets:constructionpaste>, 20, 1, [{"count": {"min": 8.0, "max": 32.0}, "function": "minecraft:set_count"}], []);
 
 /*Tier 2*/
 
-sd_main.addItemEntryJson(<buildinggadgets:constructionpaste>, 20, 1, [{"count": {"min": 8.0, "max": 64.0}, "function": "minecraft:set_count"}], []);
-am_main.addItemEntryJson(<buildinggadgets:constructionpaste>, 20, 1, [{"count": {"min": 8.0, "max": 64.0}, "function": "minecraft:set_count"}], []);
+sd_main.addItemEntryJson(<buildinggadgets:constructionpaste>, 20, 1, [{"count": {"min": 8.0, "max": 32.0}, "function": "minecraft:set_count"}], []);
+am_main.addItemEntryJson(<buildinggadgets:constructionpaste>, 20, 1, [{"count": {"min": 8.0, "max": 32.0}, "function": "minecraft:set_count"}], []);
 
 sd_main.addItemEntry(<botania:manacookie>, 10);
 am_main.addItemEntry(<botania:manacookie>, 10);
 
 /*Tier 3*/
 
-jt_main.addItemEntryJson(<buildinggadgets:constructionpaste>, 20, 1, [{"count": {"min": 8.0, "max": 64.0}, "function": "minecraft:set_count"}], []);
-dp_main.addItemEntryJson(<buildinggadgets:constructionpaste>, 20, 1, [{"count": {"min": 8.0, "max": 64.0}, "function": "minecraft:set_count"}], []);
-wm_main.addItemEntryJson(<buildinggadgets:constructionpaste>, 20, 1, [{"count": {"min": 8.0, "max": 64.0}, "function": "minecraft:set_count"}], []);
+jt_main.addItemEntryJson(<buildinggadgets:constructionpaste>, 20, 1, [{"count": {"min": 8.0, "max": 32.0}, "function": "minecraft:set_count"}], []);
+dp_main.addItemEntryJson(<buildinggadgets:constructionpaste>, 20, 1, [{"count": {"min": 8.0, "max": 32.0}, "function": "minecraft:set_count"}], []);
+wm_main.addItemEntryJson(<buildinggadgets:constructionpaste>, 20, 1, [{"count": {"min": 8.0, "max": 32.0}, "function": "minecraft:set_count"}], []);
 
-jt_main.addItemEntry(<buildinggadgets:constructionpastecontainer>.withTag({amount: 512}), 5);
-dp_main.addItemEntry(<buildinggadgets:constructionpastecontainer>.withTag({amount: 512}), 5);
-wm_main.addItemEntry(<buildinggadgets:constructionpastecontainer>.withTag({amount: 512}), 5);
+jt_main.addItemEntry(<buildinggadgets:constructionpastecontainer>.withTag({amount: 128}), 5);
+dp_main.addItemEntry(<buildinggadgets:constructionpastecontainer>.withTag({amount: 128}), 5);
+wm_main.addItemEntry(<buildinggadgets:constructionpastecontainer>.withTag({amount: 128}), 5);
 
 jt_main.addItemEntry(<tconstruct:materials:50>,2);
 dp_main.addItemEntry(<tconstruct:materials:50>,2);
@@ -67,24 +67,24 @@ wm_main.addItemEntry(<botania:manacookie>, 10);
 
 /*Tier 4*/
 
-nb_main.addItemEntryJson(<buildinggadgets:constructionpaste>, 20, 1, [{"count": {"min": 8.0, "max": 64.0}, "function": "minecraft:set_count"}], []);
-nb_main.addItemEntry(<buildinggadgets:constructionpastecontainer>.withTag({amount: 512}), 6);
-nb_main.addItemEntry(<buildinggadgets:constructionpastecontainert2>.withTag({amount: 2048}), 4);
+nb_main.addItemEntryJson(<buildinggadgets:constructionpaste>, 20, 1, [{"count": {"min": 8.0, "max": 32.0}, "function": "minecraft:set_count"}], []);
+nb_main.addItemEntry(<buildinggadgets:constructionpastecontainer>.withTag({amount: 128}), 6);
+nb_main.addItemEntry(<buildinggadgets:constructionpastecontainert2>.withTag({amount: 512}), 4);
 nb_main.addItemEntry(<tconstruct:materials:50>,2);
 
 /*Tier 5*/
 
-scorr_main.addItemEntryJson(<buildinggadgets:constructionpaste>, 20, 1, [{"count": {"min": 8.0, "max": 64.0}, "function": "minecraft:set_count"}], []);
-scross_main.addItemEntryJson(<buildinggadgets:constructionpaste>, 20, 1, [{"count": {"min": 8.0, "max": 64.0}, "function": "minecraft:set_count"}], []);
-sl_main.addItemEntryJson(<buildinggadgets:constructionpaste>, 20, 1, [{"count": {"min": 8.0, "max": 64.0}, "function": "minecraft:set_count"}], []);
+scorr_main.addItemEntryJson(<buildinggadgets:constructionpaste>, 20, 1, [{"count": {"min": 8.0, "max": 32.0}, "function": "minecraft:set_count"}], []);
+scross_main.addItemEntryJson(<buildinggadgets:constructionpaste>, 20, 1, [{"count": {"min": 8.0, "max": 32.0}, "function": "minecraft:set_count"}], []);
+sl_main.addItemEntryJson(<buildinggadgets:constructionpaste>, 20, 1, [{"count": {"min": 8.0, "max": 32.0}, "function": "minecraft:set_count"}], []);
 
-scorr_main.addItemEntry(<buildinggadgets:constructionpastecontainert2>.withTag({amount: 2048}), 5);
-scross_main.addItemEntry(<buildinggadgets:constructionpastecontainert2>.withTag({amount: 2048}), 5);
-sl_main.addItemEntry(<buildinggadgets:constructionpastecontainert2>.withTag({amount: 2048}), 5);
+scorr_main.addItemEntry(<buildinggadgets:constructionpastecontainert2>.withTag({amount: 512}), 5);
+scross_main.addItemEntry(<buildinggadgets:constructionpastecontainert2>.withTag({amount: 512}), 5);
+sl_main.addItemEntry(<buildinggadgets:constructionpastecontainert2>.withTag({amount: 512}), 5);
 
-scorr_main.addItemEntry(<buildinggadgets:constructionpastecontainert3>.withTag({amount: 8192}), 3);
-scross_main.addItemEntry(<buildinggadgets:constructionpastecontainert3>.withTag({amount: 8192}), 3);
-sl_main.addItemEntry(<buildinggadgets:constructionpastecontainert3>.withTag({amount: 8192}), 3);
+scorr_main.addItemEntry(<buildinggadgets:constructionpastecontainert3>.withTag({amount: 2048}), 3);
+scross_main.addItemEntry(<buildinggadgets:constructionpastecontainert3>.withTag({amount: 2048}), 3);
+sl_main.addItemEntry(<buildinggadgets:constructionpastecontainert3>.withTag({amount: 2048}), 3);
 
 scorr_main.addItemEntry(<tconstruct:materials:50>,3);
 scross_main.addItemEntry(<tconstruct:materials:50>,3);
@@ -93,5 +93,5 @@ sl_main.addItemEntry(<tconstruct:materials:50>,3);
 
 /*Tier 6*/
 
-ect_main.addItemEntry(<buildinggadgets:constructionpastecontainert3>.withTag({amount: 8192}), 10);
+ect_main.addItemEntry(<buildinggadgets:constructionpastecontainert3>.withTag({amount: 2048}), 10);
 ect_main.addItemEntry(<tconstruct:materials:50>,5);
