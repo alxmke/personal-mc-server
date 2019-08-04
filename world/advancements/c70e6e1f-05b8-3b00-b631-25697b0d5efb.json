@@ -1406,12 +1406,6 @@
     },
     "done": true
   },
-  "botania:main/bauble_wear": {
-    "criteria": {
-      "code_triggered": "2019-08-02 13:52:57 +0000"
-    },
-    "done": true
-  },
   "appliedenergistics2:main/root": {
     "criteria": {
       "certus": "2019-07-25 04:13:08 +0000"
@@ -2596,12 +2590,6 @@
     },
     "done": true
   },
-  "appliedenergistics2:main/crafting_terminal": {
-    "criteria": {
-      "certus": "2019-08-03 08:39:13 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/cyan_stained_hardened_clay": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:02:11 +0000"
@@ -3043,12 +3031,6 @@
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2019-07-25 01:14:23 +0000"
-    },
-    "done": true
-  },
-  "appliedenergistics2:main/network1": {
-    "criteria": {
-      "cable": "2019-08-03 10:43:14 +0000"
     },
     "done": true
   },
