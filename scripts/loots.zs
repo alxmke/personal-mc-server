@@ -1,3 +1,4 @@
+import crafttweaker.item.IItemStack;
 import loottweaker.vanilla.loot.LootTables;
 import loottweaker.vanilla.loot.LootTable;
 import loottweaker.vanilla.loot.LootPool;
@@ -46,6 +47,9 @@ am_main.addItemEntryJson(<buildinggadgets:constructionpaste>, 20, 1, [{"count": 
 sd_main.addItemEntry(<botania:manacookie>, 10);
 am_main.addItemEntry(<botania:manacookie>, 10);
 
+sd_main.addItemEntry(<thaumcraft:loot_bag>, 10);
+am_main.addItemEntry(<thaumcraft:loot_bag>, 10);
+
 /*Tier 3*/
 
 jt_main.addItemEntryJson(<buildinggadgets:constructionpaste>, 20, 1, [{"count": {"min": 8.0, "max": 32.0}, "function": "minecraft:set_count"}], []);
@@ -64,12 +68,17 @@ jt_main.addItemEntry(<botania:manacookie>, 10);
 dp_main.addItemEntry(<botania:manacookie>, 10);
 wm_main.addItemEntry(<botania:manacookie>, 10);
 
+jt_main.addItemEntry(<thaumcraft:loot_bag:1>, 10);
+dp_main.addItemEntry(<thaumcraft:loot_bag:1>, 10);
+wm_main.addItemEntry(<thaumcraft:loot_bag:1>, 10);
+
 
 /*Tier 4*/
 
 nb_main.addItemEntryJson(<buildinggadgets:constructionpaste>, 20, 1, [{"count": {"min": 8.0, "max": 32.0}, "function": "minecraft:set_count"}], []);
 nb_main.addItemEntry(<buildinggadgets:constructionpastecontainer>.withTag({amount: 128}), 6);
 nb_main.addItemEntry(<buildinggadgets:constructionpastecontainert2>.withTag({amount: 512}), 4);
+nb_main.addItemEntry(<thaumcraft:loot_bag:2>,10);
 nb_main.addItemEntry(<tconstruct:materials:50>,2);
 
 /*Tier 5*/
@@ -95,3 +104,47 @@ sl_main.addItemEntry(<tconstruct:materials:50>,3);
 
 ect_main.addItemEntry(<buildinggadgets:constructionpastecontainert3>.withTag({amount: 2048}), 10);
 ect_main.addItemEntry(<tconstruct:materials:50>,5);
+
+
+/*botania runes*/
+val T3Array = [
+	<botania:rune:0>,
+	<botania:rune:1>,
+	<botania:rune:2>,
+	<botania:rune:3>,
+	<botania:rune:8>
+] as IItemStack[];
+
+for item in T3Array {
+	jt_main.addItemEntry(item, 5);
+	dp_main.addItemEntry(item, 5);
+	wm_main.addItemEntry(item, 5);
+}
+
+val T4Array = [
+	<botania:rune:4>,
+	<botania:rune:5>,
+	<botania:rune:6>,
+	<botania:rune:7>
+] as IItemStack[];
+
+for item in T4Array {
+	nb_main.addItemEntry(item, 6);
+}
+
+val T5Array = [
+	<botania:rune:9>,
+	<botania:rune:10>,
+	<botania:rune:11>,
+	<botania:rune:12>,
+	<botania:rune:13>,
+	<botania:rune:14>,
+	<botania:rune:15>
+] as IItemStack[];
+
+for item in T5Array {
+	scorr_main.addItemEntry(item, 4);
+	scross_main.addItemEntry(item, 4);
+	sl_main.addItemEntry(item, 4);
+	ect_main.addItemEntry(item, 4);
+}
