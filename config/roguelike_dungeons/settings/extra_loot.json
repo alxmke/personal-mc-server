@@ -9,7 +9,6 @@
 		{"level" : [1, 2, 3], "table" : "minecraft:chests/abandoned_mineshaft"},
 		{"level" : [3, 4], "table" : "minecraft:chests/jungle_temple"},
 		{"level" : [3, 4], "table" : "minecraft:chests/desert_pyramid"},
-		{"level" : [3, 4], "table" : "minecraft:chests/woodland_mansion"},
 		{"level" : 4, "table" : "minecraft:chests/nether_bridge"}
 		]
 }

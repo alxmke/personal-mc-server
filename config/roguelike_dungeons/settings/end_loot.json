@@ -40,6 +40,9 @@
     }
   ],
 	"loot_tables" : [
-		{"level" : [1, 2, 3, 4], "table" : "minecraft:chests/end_city_treasure"}
+		{"level" : [1, 2, 3, 4], "table" : "minecraft:chests/stronghold_corridor"},
+    {"level" : [1, 2, 3, 4], "table" : "minecraft:chests/stronghold_crossing"},
+    {"level" : [1, 2, 3, 4], "table" : "minecraft:chests/stronghold_library"},
+    {"level" : [1, 2, 3, 4], "table" : "minecraft:chests/end_city_treasure"}
 	]
 }
