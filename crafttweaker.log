@@ -48,6 +48,8 @@
 [INITIALIZATION][SERVER][INFO] Queuing entry buildinggadgets:constructionpaste for addition to pool main of table minecraft:chests/abandoned_mineshaft
 [INITIALIZATION][SERVER][INFO] Queuing entry botania:manacookie for addition to pool main of table minecraft:chests/simple_dungeon
 [INITIALIZATION][SERVER][INFO] Queuing entry botania:manacookie for addition to pool main of table minecraft:chests/abandoned_mineshaft
+[INITIALIZATION][SERVER][INFO] Queuing entry thaumcraft:loot_bag for addition to pool main of table minecraft:chests/simple_dungeon
+[INITIALIZATION][SERVER][INFO] Queuing entry thaumcraft:loot_bag for addition to pool main of table minecraft:chests/abandoned_mineshaft
 [INITIALIZATION][SERVER][INFO] Queuing entry buildinggadgets:constructionpaste for addition to pool main of table minecraft:chests/jungle_temple
 [INITIALIZATION][SERVER][INFO] Queuing entry buildinggadgets:constructionpaste for addition to pool main of table minecraft:chests/desert_pyramid
 [INITIALIZATION][SERVER][INFO] Queuing entry buildinggadgets:constructionpaste for addition to pool main of table minecraft:chests/woodland_mansion
@@ -60,9 +62,13 @@
 [INITIALIZATION][SERVER][INFO] Queuing entry botania:manacookie for addition to pool main of table minecraft:chests/jungle_temple
 [INITIALIZATION][SERVER][INFO] Queuing entry botania:manacookie for addition to pool main of table minecraft:chests/desert_pyramid
 [INITIALIZATION][SERVER][INFO] Queuing entry botania:manacookie for addition to pool main of table minecraft:chests/woodland_mansion
+[INITIALIZATION][SERVER][INFO] Queuing entry thaumcraft:loot_bag for addition to pool main of table minecraft:chests/jungle_temple
+[INITIALIZATION][SERVER][INFO] Queuing entry thaumcraft:loot_bag for addition to pool main of table minecraft:chests/desert_pyramid
+[INITIALIZATION][SERVER][INFO] Queuing entry thaumcraft:loot_bag for addition to pool main of table minecraft:chests/woodland_mansion
 [INITIALIZATION][SERVER][INFO] Queuing entry buildinggadgets:constructionpaste for addition to pool main of table minecraft:chests/nether_bridge
 [INITIALIZATION][SERVER][INFO] Queuing entry buildinggadgets:constructionpastecontainer for addition to pool main of table minecraft:chests/nether_bridge
 [INITIALIZATION][SERVER][INFO] Queuing entry buildinggadgets:constructionpastecontainert2 for addition to pool main of table minecraft:chests/nether_bridge
+[INITIALIZATION][SERVER][INFO] Queuing entry thaumcraft:loot_bag for addition to pool main of table minecraft:chests/nether_bridge
 [INITIALIZATION][SERVER][INFO] Queuing entry tconstruct:materials for addition to pool main of table minecraft:chests/nether_bridge
 [INITIALIZATION][SERVER][INFO] Queuing entry buildinggadgets:constructionpaste for addition to pool main of table minecraft:chests/stronghold_corridor
 [INITIALIZATION][SERVER][INFO] Queuing entry buildinggadgets:constructionpaste for addition to pool main of table minecraft:chests/stronghold_crossing
@@ -78,6 +84,53 @@
 [INITIALIZATION][SERVER][INFO] Queuing entry tconstruct:materials for addition to pool main of table minecraft:chests/stronghold_library
 [INITIALIZATION][SERVER][INFO] Queuing entry buildinggadgets:constructionpastecontainert3 for addition to pool main of table minecraft:chests/end_city_treasure
 [INITIALIZATION][SERVER][INFO] Queuing entry tconstruct:materials for addition to pool main of table minecraft:chests/end_city_treasure
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/jungle_temple
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/desert_pyramid
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/woodland_mansion
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/jungle_temple
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/desert_pyramid
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/woodland_mansion
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/jungle_temple
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/desert_pyramid
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/woodland_mansion
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/jungle_temple
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/desert_pyramid
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/woodland_mansion
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/jungle_temple
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/desert_pyramid
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/woodland_mansion
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/nether_bridge
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/nether_bridge
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/nether_bridge
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/nether_bridge
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/stronghold_corridor
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/stronghold_crossing
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/stronghold_library
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/end_city_treasure
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/stronghold_corridor
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/stronghold_crossing
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/stronghold_library
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/end_city_treasure
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/stronghold_corridor
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/stronghold_crossing
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/stronghold_library
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/end_city_treasure
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/stronghold_corridor
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/stronghold_crossing
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/stronghold_library
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/end_city_treasure
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/stronghold_corridor
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/stronghold_crossing
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/stronghold_library
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/end_city_treasure
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/stronghold_corridor
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/stronghold_crossing
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/stronghold_library
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/end_city_treasure
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/stronghold_corridor
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/stronghold_crossing
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/stronghold_library
+[INITIALIZATION][SERVER][INFO] Queuing entry botania:rune for addition to pool main of table minecraft:chests/end_city_treasure
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: manacookie-remove.zs}
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: map.zs}
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: PamHC.zs}
@@ -89,7 +142,7 @@
 [INITIALIZATION][SERVER][INFO] Altering Alloy Recipe(s) for <liquid:dark_steel>
 [INITIALIZATION][SERVER][INFO] Altering Alloy Recipe(s) for <liquid:pulsating_iron>
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Thaum-IE.zs}
-[INITIALIZATION][SERVER][INFO] Completed script loading in: 469ms
+[INITIALIZATION][SERVER][INFO] Completed script loading in: 512ms
 [POSTINITIALIZATION][SERVER][INFO] Removing recipes for various outputs
 [POSTINITIALIZATION][SERVER][INFO] Removing Shaped recipes for <minecraft:map>
 [POSTINITIALIZATION][SERVER][INFO] 1 removed

@@ -1772,6 +1772,12 @@
     },
     "done": true
   },
+  "botania:main/dirt_rod_craft": {
+    "criteria": {
+      "dirtrod": "2019-08-05 05:43:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/redstone": {
     "criteria": {
       "has_the_recipe": "2019-07-24 20:06:16 +0000"
