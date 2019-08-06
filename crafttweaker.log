@@ -142,7 +142,7 @@
 [INITIALIZATION][SERVER][INFO] Altering Alloy Recipe(s) for <liquid:dark_steel>
 [INITIALIZATION][SERVER][INFO] Altering Alloy Recipe(s) for <liquid:pulsating_iron>
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Thaum-IE.zs}
-[INITIALIZATION][SERVER][INFO] Completed script loading in: 512ms
+[INITIALIZATION][SERVER][INFO] Completed script loading in: 582ms
 [POSTINITIALIZATION][SERVER][INFO] Removing recipes for various outputs
 [POSTINITIALIZATION][SERVER][INFO] Removing Shaped recipes for <minecraft:map>
 [POSTINITIALIZATION][SERVER][INFO] 1 removed
